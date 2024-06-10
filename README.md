@@ -1,2 +1,4 @@
 # MIT-6.86x
-All the 6 projects from MIT's Machine Learning with Python-From Linear Models to Deep Learning 
+
+## Project 0 
+- Setting up virtual environments in conda, basic NumPy exercises and debugging problem involving mutable default arguments.
