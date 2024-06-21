@@ -4,8 +4,6 @@ def randomization(n):
     
     return np.random.random([n,1])
 
-    raise NotImplementedError
-
 print("A random 3x1 matrix is",randomization(3))
 
 def operations(h, w):
@@ -14,17 +12,13 @@ def operations(h, w):
     B = np.random.random([h,w])
     s = A+B
     return A,B,s
-
-    raise NotImplementedError
-
+    
 print("2 random 2x3 matrices and their sum are",operations(2,3))
 
 def norm(A, B):
     
     s=A+B
     return np.linalg.norm(s)
-
-    raise NotImplementedError
 
 A=np.array([1,2])
 B=np.array([3,4])
@@ -46,8 +40,6 @@ def neural_network(inputs, weights):
     z=np.tanh(z)
     return z
 
-    raise NotImplementedError
-
 def scalar_function(x, y):
     
     if x<=y:
@@ -55,15 +47,11 @@ def scalar_function(x, y):
     else:
         return x/y
 
-    raise NotImplementedError
-
 print("f(x,y) for x=2 and y=3 is",scalar_function(2,3))
 
 def vector_function(x, y):
     
     vfunc=np.vectorize(scalar_function)
     return vector_function(x,y)
-
-    raise NotImplementedError
 
 print("f(x,y) for x=[1,2,3,4] and y=2 is",vector_function([1,2,3,4],2))
