@@ -1,3 +1,5 @@
+# Helper functions for main.py and project1.py (pre defined by MIT)
+
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
